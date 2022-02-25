@@ -13,6 +13,8 @@ interface ITaxable {
 
     function setTaxCollectorAddress(address _taxCollectorAddress) external;
 
+    function isAddressExcluded(address _address) external returns (bool);
+
     function setTaxRate(uint256 _taxRate) external;
 
     function setBurnThreshold(uint256 _burnThreshold) external;
@@ -24,4 +26,6 @@ interface ITaxable {
     function setTombOracle(address _tombOracle) external;
 
     function setTaxOffice(address _taxOffice) external;
+
+    function taxRate() external view returns (uint256);
 }
