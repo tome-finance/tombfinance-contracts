@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.0;
+pragma solidity 0.6.12;
 
-import "@openzeppelin/contracts/utils/Context.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "../openzeppelin/contracts/GSN/Context.sol";
+import "../openzeppelin/contracts/access/Ownable.sol";
 
-abstract contract Operator is Context, Ownable {
+contract Operator is Context, Ownable {
     address private _operator;
 
     event OperatorTransferred(address indexed previousOperator, address indexed newOperator);
 
-    constructor() {
+    constructor() internal {
         _operator = _msgSender();
         emit OperatorTransferred(address(0), _operator);
     }

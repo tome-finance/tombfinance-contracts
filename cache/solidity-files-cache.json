@@ -1,0 +1,441 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\randy\\Repos\\tome-finance\\tombfinance-contracts\\contracts\\2bond.sol": {
+      "lastModificationDate": 1646975569103,
+      "contentHash": "84dfd8f0d8ffc9d87d298f80dcb501e5",
+      "sourceName": "contracts/2bond.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./openzeppelin/contracts/token/ERC20/ERC20Burnable.sol",
+        "./owner/Operator.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "TwoBond"
+      ]
+    },
+    "C:\\Users\\randy\\Repos\\tome-finance\\tombfinance-contracts\\contracts\\openzeppelin\\contracts\\token\\ERC20\\ERC20Burnable.sol": {
+      "lastModificationDate": 1646974758078,
+      "contentHash": "c5d43da5c2d77505ee403e405114d700",
+      "sourceName": "contracts/openzeppelin/contracts/token/ERC20/ERC20Burnable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./ERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Burnable"
+      ]
+    },
+    "C:\\Users\\randy\\Repos\\tome-finance\\tombfinance-contracts\\contracts\\owner\\Operator.sol": {
+      "lastModificationDate": 1646975676102,
+      "contentHash": "6f7842c7b156c1fefa6400c9edb9354a",
+      "sourceName": "contracts/owner/Operator.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../openzeppelin/contracts/GSN/Context.sol",
+        "../openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Operator"
+      ]
+    },
+    "C:\\Users\\randy\\Repos\\tome-finance\\tombfinance-contracts\\contracts\\openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1646975046219,
+      "contentHash": "b64c8bb50745d7fe3ead6adb98ea6b14",
+      "sourceName": "contracts/openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "C:\\Users\\randy\\Repos\\tome-finance\\tombfinance-contracts\\contracts\\openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
+      "lastModificationDate": 1646976208617,
+      "contentHash": "19abbcac2362c88e997587ff8fbc3c29",
+      "sourceName": "contracts/openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./IERC20.sol",
+        "../../math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "C:\\Users\\randy\\Repos\\tome-finance\\tombfinance-contracts\\contracts\\openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1646976233242,
+      "contentHash": "d3491e81fe502a14e4492834eb13cecf",
+      "sourceName": "contracts/openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "C:\\Users\\randy\\Repos\\tome-finance\\tombfinance-contracts\\contracts\\openzeppelin\\contracts\\math\\SafeMath.sol": {
+      "lastModificationDate": 1646975418279,
+      "contentHash": "80e53c5947e09a694653a9bacf8cbb8a",
+      "sourceName": "contracts/openzeppelin/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "C:\\Users\\randy\\Repos\\tome-finance\\tombfinance-contracts\\contracts\\openzeppelin\\contracts\\GSN\\Context.sol": {
+      "lastModificationDate": 1646976031576,
+      "contentHash": "ae942cc2cbfa28e03f677ef582f7494b",
+      "sourceName": "contracts/openzeppelin/contracts/GSN/Context.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": []
+    },
+    "C:\\Users\\randy\\Repos\\tome-finance\\tombfinance-contracts\\contracts\\openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1646975346015,
+      "contentHash": "27f0ee327dd109d760551cba0cb9a2a7",
+      "sourceName": "contracts/openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "C:\\Users\\randy\\Repos\\tome-finance\\tombfinance-contracts\\contracts\\2omb.sol": {
+      "lastModificationDate": 1646974118343,
+      "contentHash": "4c34b303774ea9896c6d55b36e449281",
+      "sourceName": "contracts/2omb.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        "0.6.12",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        "0.6.12",
+        "0.6.12",
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Context",
+        "ERC20",
+        "ERC20Burnable",
+        "IERC20",
+        "IOracle",
+        "Math",
+        "Operator",
+        "Ownable",
+        "SafeMath",
+        "SafeMath8",
+        "_2OMB_Token"
+      ]
+    },
+    "C:\\Users\\randy\\Repos\\tome-finance\\tombfinance-contracts\\contracts\\2share.sol": {
+      "lastModificationDate": 1646974315931,
+      "contentHash": "bbee6c376fecac096660975917198c31",
+      "sourceName": "contracts/2share.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        "0.6.12",
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Context",
+        "ERC20",
+        "ERC20Burnable",
+        "IERC20",
+        "Operator",
+        "Ownable",
+        "SafeMath",
+        "Twoshare"
+      ]
+    }
+  }
+}
